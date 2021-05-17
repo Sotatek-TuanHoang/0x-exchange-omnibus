@@ -1,0 +1,23 @@
+{
+  "name": "0x-exchange-omnibus",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "patch-package": "^6.2.2",
+    "postinstall-postinstall": "^2.1.0",
+    "truffle": "^5.1.42",
+    "web3": "^1.2.11"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@truffle/hdwallet-provider": "^1.1.1",
+    "dotenv": "^8.2.0"
+  },
+  "scripts": {
+    "abigen": "sh ./abigen.sh",
+    "postinstall": "patch-package"
+  }
+}
